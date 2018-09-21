@@ -1,0 +1,44 @@
+{
+  "name": "gzhipin-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd-mobile": "^2.2.5",
+    "axios": "^0.18.0",
+    "js-cookie": "^2.2.0",
+    "prop-types": "15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.9.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.1.0",
+    "react-app-rewired": "^1.6.2",
+    "react-scripts": "1.1.4",
+    "redux-devtools-extension": "^2.13.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:4000",
+  "description": "1). 项目描述: 整体业务功能/功能模块/主体的技术/开发模式\r     2). 技术选型: 数据展现/用户交互/组件化, 后端, 前后台交互, 模块化, 项目构建/工程化, 其它\r     3). API接口: 接口的4个组成部分, 接口文档, 对/调/测接口",
+  "main": "config-overrides.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxfjd3g/180524_gzhipin-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxfjd3g/180524_gzhipin-client/issues"
+  },
+  "homepage": "https://github.com/zxfjd3g/180524_gzhipin-client#readme"
+}
